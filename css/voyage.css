@@ -1,0 +1,190 @@
+.body4{
+	background-image: url(https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&w=1000&q=80);
+	background-size: cover;
+}
+
+#menu a { 
+	display:block; 
+	color: #fff; 
+	text-decoration:none;
+}
+.tete
+{  text-transform: uppercase;}
+#menu  li,
+#menu  li li {
+	position: relative;
+	display:inline-block;
+	width: 110px;
+	padding: 6px 15px;
+	background-color: #777;
+	background-image: linear-gradient(rgb(243, 148, 148), rgb(184, 133, 133) 50%, rgb(138, 114, 114) 50%);
+}
+#menu  li li { background: transparent none; }
+#menu li li a { color: #444; }
+#menu  ul ul:hover    {background:#eee;  } 
+
+#menu li li:hover { background:rgb(226, 181, 181); } 
+
+#menu li + li {
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #777;
+}
+#menu  li {
+	border-right: 0;
+	border-left: 1px solid #aaa;
+	border-radius: 0 8px 8px 0 ;
+}
+
+
+#menu ul {
+	position: absolute;
+	top: 2em; left: 0;
+	max-height:0em;	
+	margin: 0; padding: 0;
+	background-color: #ddd;
+	background-image: linear-gradient(#fff,#ddd);
+	overflow: hidden;
+	transition: 1s max-height 0.3s;
+	border-radius: 0 0 8px 8px;
+}
+
+#menu  li:hover ul {
+	
+	max-height: 13em;
+}
+.myButton {
+	box-shadow: 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:24px;
+	font-style:italic;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	margin-left: 44%;
+
+}
+.myButton:hover{
+	background: linear-gradient(65deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5,
+	 #002bff, #7a00ff, #ff00c8, #ff0000);
+	 background-size: cover;
+}
+
+
+.myButton:active {
+	color: chocolate;
+}
+
+.pho{
+	margin-left: 5%;
+	padding: 3%;
+	
+}
+
+
+.img{
+	height: 315px;
+	width: 360px;
+	border-radius: 50%;
+		animation: rotation 3s linear;
+
+}
+
+
+.vid{
+	height: 315px;
+	width: 360px;
+	border-radius: 50%;
+	animation: rotation 3s linear;
+}
+
+
+
+body {
+ font-family:cursive;
+ font-size:90%;
+ }
+form {
+ background-color:#E0FFFF	;
+ padding:10px;
+ width:280px;
+ }
+fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:10px;
+ border:1px solid #DF3F3F;
+ }
+legend {
+ color:#DF3F3F;
+ font-weight:bold;
+ }
+label {
+ margin-top:10px;
+ display:block;
+ }
+label.inline {
+ display:inline;
+ margin-right:50px;
+ }
+input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+input, textarea, select {
+ padding:3px;
+ border:1px solid #F5C5C5;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+select {
+ margin-top:10px;
+ }
+input[type=radio] {
+ background-color:transparent;
+ border:none;
+ width:10px;
+ }
+input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
+
+ .formulaire{
+ 	text-align: center;
+	margin-left: 37%;
+
+ }
+ footer{
+	 display: flex;
+ }
+ .dooter
+ {opacity: 20%;
+flex-direction: row;
+position: absolute;
+margin-left: auto;
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: auto;
+
+	
+ }
+.dooter:hover
+{opacity: 75%;
+	
+}
+
+.gooter
+{	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color:gray;
+	color: wheat;
+	}

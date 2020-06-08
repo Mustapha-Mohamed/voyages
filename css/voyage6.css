@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.Guadeloupe{
+padding:0;
+margin:0;
+background-image:url(../img/fond-guadeloupe.jpg);
+background-attachment:fixed;
+background-size:cover;
+}
+
+.hautdepage{
+background-image:url(../img/plage-guadeloupe.jpg);
+background-size:cover;
+height:70%;
+margin-top:5%;
+display:flex;
+align-items:flex-end;
+background-attachment: fixed;
+}
+
+.video{
+display:flex;
+justify-content:center;
+}
+
+.zoomvideo{
+-ms-transform: scale(1.5); 
+-webkit-transform: scale(1.5); 
+transform: scale(1.5); 
+border-radius:30px; 	
+}
+
+.titre{
+text-align:center;
+font-family: 'Pacifico', sans-serif ,cursive;
+margin-top:10%;	
+font-size:45px;
+color: white;
+text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.milieudepage{
+height:550px;
+width:100%;	
+display:flex;
+justify-content:center;	
+align-items:center;
+}
+
+.text1{
+text-align:center;
+font-size:25px;
+color:white;
+text-shadow: black 0.1em 0.1em 0.2em; 
+font-family: 'Pacifico', sans-serif ,cursive;
+}
+
+
+
+.titrephotos{
+color:white;
+text-shadow: black 0.1em 0.1em 0.2em; 	
+font-size:35px;
+text-align:center;
+
+}
+
+.images{
+background-color: #F4F6F6;	
+display:flex;
+flex-direction:column;
+
+}
+
+.photos{
+display:flex;
+justify-content:space-between;
+margin:10px;
+margin-left:7%;
+margin-right:7%;
+}
+
+.textfooter{
+display:flex;
+justify-content:center;
+}
+
+.zoom{
+transition: transform .2s;
+border-radius:30px;
+}
+.zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+}
+
+.lien2{
+    text-decoration:none;	
+    text-shadow:#ff006e 2.5px 2.5px 0,#8338ec 5px 5px 0,#3a86ff 7.5px 7.5px 0,#333 10px 10px 10px;
+    color:#ffcc00
+}

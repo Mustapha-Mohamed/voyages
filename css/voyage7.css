@@ -1,0 +1,47 @@
+
+
+.body1{
+	background-color:white
+}
+
+
+.text{
+	text-align: center;
+	font-family: cursive;
+	background-image: url(https://powidian.com/wp-content/uploads/2017/06/Hotel_Reunion_Island_LUX_Ile_de_La_Reunion_Aerial.jpg);
+	background-size: 100%;
+}
+
+.titre{}
+.body2{
+	background-color: blue;
+}
+
+
+.photo{
+	height: 315px;
+	width: 560px;
+}
+
+.text2{
+	display: flex;
+	text-align: center;
+	background-color:#87CEFA;
+	margin-top: -3%;
+	padding: 1%;
+	color: white;	
+}
+
+.titre{
+	color: yellow;
+}
+
+
+.bouton{
+	text-align: center;
+}
+
+.deuxieme{
+	background-image: url(https://c.pxhere.com/photos/b9/10/botany_desktop_backgrounds_desktop_wallpaper_flora_floral_flower_wallpaper_flowers_garden-933958.jpg!d);
+	background-size: cover;
+}

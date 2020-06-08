@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+body {
+    background-image: url(../img/fond.jpg);
+    background-attachment: fixed;
+}
+
+
+
+
+
+p a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+    font-size: 250%;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.bouton {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 25px;
+    text-shadow:rgb(0, 0, 0);
+    background-color: rgb(103, 207, 255);
+    font-family:'arial';
+    border-radius:5px;
+    box-shadow: 2px 2px 2px 1px black;
+    
+}
+  
+.bouton a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.guadeloupe {
+    text-align: center;
+    background-image:url(../img/point-a-pitre.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: 1px 1px 2px 1px black;
+}
+
+.martinique {
+    text-align: center;
+    background-image:url(../img/plage-port.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 30px;
+    height: 300px;
+    box-shadow: 1px 1px 2px 1px black;
+}
+
+.grenadine {
+    text-align: center;
+    background-image:url(../img/grenadines.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: 1px 1px 2px 1px black;    
+}
+
+.droit {
+    color: white;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.liens {
+    width: 40%;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 3px black;
+    margin-top: 50%;
+}
+
+.titre {
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.contact {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+button {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 215px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 50px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+  
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+button:hover span {
+    padding-right: 25px;
+}
+  
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.button1 {
+    background-image: url(https://media.giphy.com/media/en8hrsOKSSnItC3sjx/giphy.gif);
+    background-size: cover;
+    display: flex;
+}
+
+.button2 {
+    background-image: url(https://media.giphy.com/media/7CPPm2qysqX7O/giphy.gif);
+    background-size: cover;
+    display: flex;
+}
+
+.button3 {
+    background-image: url(https://media.giphy.com/media/oOrRt0rIDNtPa/giphy.gif);
+    background-size: cover;
+    display: flex;
+}
+
+.les-antilles {
+    color:black;
+    display:flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px black;
+    font-size: 15px;
+    height: 50%;
+    font-family: 'Pacifico', sans-serif ,cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer{
+    display:flex;
+    justify-content:space-between;
+    height:15%;	
+    margin-top:5%;
+    background-image: url(../img/fonds-footer1.jpg);
+    border-radius: 10px;   
+    background-attachment: fixed;	
+    box-shadow: 1px 1px 2px 1px black;
+        
+}
+
+.reseaux{
+    width:10%;
+}
+
+.text-fin{
+    list-style-type: none;
+}

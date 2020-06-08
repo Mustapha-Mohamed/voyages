@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+.accueil{
+padding:0;
+margin:0;	
+background-image: url(../img/fond-martinique.jpg);
+background-attachment: fixed;
+}
+
+.titre{
+    text-align:center;
+    font-family: 'Lobster', cursive; 
+    margin-top:10%;	
+    font-size:45px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.div1 > a{
+text-decoration:none;
+color:white;
+font-size:25px;	
+margin-left:3%;
+font-family: 'Lobster', cursive;
+}
+
+.div1{
+display:flex;
+align-items:center;
+margin-top:5%;
+height:80%;
+background-image:url(../img/martinique3.jpg);
+background-size:cover;
+background-attachment:fixed;		
+text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.div3 > a{
+    text-decoration:none;
+    color:white;
+    font-size:25px;	
+    margin-left:3%;
+    font-family: 'Lobster', cursive;
+}
+    
+.div3{
+    display:flex;
+    align-items:center;
+    margin-top:5%;
+    height:80%;
+    background-image:url(../img/martinique4.jpg);
+    background-size:cover;
+    background-attachment:fixed;		
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.div2 > a{
+    text-decoration:none;
+    color:white;
+    font-size:25px;	
+    margin-left:3%;
+    font-family: 'Lobster', cursive;
+}
+    
+.div2{
+    display:flex;
+    align-items:center;
+    margin-top:5%;
+    height:80%;
+    background-image:url(../img/carte.jpg);
+    background-size:cover;
+    background-attachment:fixed;
+    text-shadow: black 0.1em 0.1em 0.2em;		
+}
